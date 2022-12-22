@@ -9,11 +9,6 @@ namespace Shablon1
 {
     internal class Salary_account : Account, ICalculateInterest
     {
-        // баланс учетной записи
-        public double Balance { get; set; }
-
-        // процентная ставка
-        public double Interest { get; set; }
 
         public void CalculateInterest()
         {
